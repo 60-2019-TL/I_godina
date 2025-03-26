@@ -1,3 +1,4 @@
+<h2>Pregled Projekta</h2>
 Ovaj projekat je razvijen kao deo predmeta Praktikum iz programiranja. Cilj je bio da se napravi veb sajt sa tri stranice, pri čemu svaka služi drugačijoj svrsi:
 
 Istorija Programskog Jezika - Prva stranica sadrži kratak pregled istorije programskog jezika Setter zajedno sa primerom koda.</br>
