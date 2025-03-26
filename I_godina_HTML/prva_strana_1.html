@@ -1,0 +1,202 @@
+<html>
+    <head>
+            <title>Sather</title>
+
+            <!--Dopušta nam korišćenje slova poput č,ć,š, itd-->
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <!--Podešavanje slike u telu koda, tj. <body> -->
+                      <style>
+
+                            body {
+                                background-image: url('nova1.jpg');
+                                background-repeat: no-repeat;
+                                background-attachment: fixed;
+                                background-size: 100% 100%;
+                                font-size: x-large;
+                                font-family: 'Times New Roman', Times, serif;
+                                margin-left: 1em;
+
+                                 }
+                      </style>
+                      <!--Postavljanje boje u zaglavlju koda-->
+                     <style>
+                        header
+                        {
+                            background-color:darkturquoise;
+
+
+                        }
+                     </style>
+
+                <style>
+                    main {
+                        display: flex; /* Flexbox for main layout */
+                        margin-top: 20px; /* Space above the main content */
+                    }
+
+                    .text-column {
+                        flex: 2; /* Left column takes more space */
+                        padding-right: 10pt; /* Space between columns */
+                        max-width: 1300px; /* Set a maximum width for the text column */
+                    }
+
+                    .bio-box {
+                        flex: 1; /* Right column takes less space */
+                        text-align: center; /* Center content in bio column */
+                        margin-left: 80pt; /* Adjust margin to move the image closer to the text */
+                        background-color: white;
+                        margin-right: 240pt;
+                        margin-bottom: 70pt;
+                    }
+
+                    .bio-box img {
+                        max-width: 60%; /* Responsive image */
+                        height: auto; /* Maintain aspect ratio */
+                        margin-bottom: 10px; /* Space below the image */
+                        margin-right: 10pt;
+                    }
+
+                    .code-example {
+                        background-color: #e7f3fe; /* Light blue background */
+                        border-left: 6px solid #2196F3; /* Blue border */
+                        padding: 10px; /* Padding for example */
+                        margin-top: 20px; /* Margin above code example */
+                        font-family: 'Courier New', Courier, monospace; /* Monospace font for code */
+                        white-space: pre; /* Preserve whitespace */
+                    }
+                </style>
+
+                    <!--Podešavanje glavnog naslova-->
+                     <style>
+                    h1 {
+                        display: block;
+                        font-size: 3em;
+                        margin-top: 0.4em;
+                        margin-bottom: 0.3em;
+                        margin-left: 0.1em;
+                        margin-right: 0.1em;
+                        font-weight: bold;
+
+                      }
+                      </style>
+                      <!--Podešavanje boje pozadine footera-->
+                      <style>
+                          footer {
+                              background-color: rgb(3, 186, 189);
+                              text-align: center; /* Dodan: centriranje teksta u footeru */
+                              padding: 1em 0; /* Dodan: padding za footer */
+                          }
+                      </style>
+
+
+    </head>
+
+    <body>
+        <div>
+        <!-- Zaglavlje stranice-->
+        <header>
+
+            <!--Kontejner-->
+            <div>
+                <img src="satherLogo.png" alt="Logo Sather" style="float: left;" width="100" height="100">
+
+                 <h1><center>SATHER - programski jezik</center></h1>
+
+                 <!--Povezivanje stranica unutar HTML-a-->
+                     <nav>
+                         &emsp; &emsp; &emsp; &emsp; &emsp;
+                         <a href="prva_strana_1.html" style="text-decoration: none; font-size: larger;">Početna</a> 
+                         &emsp;
+                        <a href="druga_strana_2.html" style="text-decoration: none; font-size: larger;">Druga strana</a> 
+                        &emsp;
+                        <a href="treca_strana_3.html" style="text-decoration: none; font-size: larger;">Treća strana</a>
+                    
+                    </nav>
+
+            </div>
+            <!--Kraj kontejnera-->
+
+        </header>
+    <!-- Kraj zaglavlja-->
+    
+    <!--Glavni deo-->
+            <main>
+                <div class="text-column">
+                    <p><strong>Sather</strong> je <font color="blue"><i>objektno orijentisani programski jezik</i></font>. Nastao je oko 1990. godine na Međunarodnom
+                        institutu za računarske nauke (<b>ICSI</b>) na <a href="https://en.wikipedia.org/wiki/University_of_California,_Berkeley" target="_blank" style="text-decoration: none;">Kalifornijskom univerzitetu u Berkliju</a>,<br>
+                        a razvio ga je međunarodni tim na čelu sa <strong>Steve</strong>-om <strong>Omohundro</strong>-om. Podržava <a href="https://en.wikipedia.org/wiki/Garbage_collection_(computer_science)" style="text-decoration: none;">sakupljanje smeća</a> i <a href="https://en.wikipedia.org/wiki/Generic_programming" target="_blank" style="text-decoration: none;">generičke podatke</a> podtipovima.</p>
+
+                    <p>Prvobitno je zasnovan na <a href="https://en.wikipedia.org/wiki/Eiffel_(programming_language)" target="_blank" style="text-decoration: none;">Ajfelu</a>, ali se razilazio i sada uključuje nekoliko <a href="https://en.wikipedia.org/wiki/Functional_programming" target="_blank" style="text-decoration: none;">funkcionalnih programskih</a> funkcija.</p>
+
+                    <p>Ime je inspirisano Ajfelom; <a href="https://en.wikipedia.org/wiki/Sather_Tower" target="_blank" style="text-decoration: none;"><em>Sather Tover</em></a> je prepoznatljiva znamenitost u Berkeleiju, nazvana po <a href="https://en.wikipedia.org/wiki/Jane_Sather" target="_blank" style="text-decoration: none;">Jane Krom Sather</a>, udovici <a href="https://en.wikipedia.org/wiki/Peder_Sather" target="_blank" style="text-decoration: none;">Peder Sather</a>, koja je donirala velike iznose za <br>osnivanje univerziteta.</p>
+
+                    <p>Sather takođe uzima inspiraciju iz drugih programskih jezika i paradigmi: <a href="https://en.wikipedia.org/wiki/Iterator" target="_blank">iteratori</a>, <a href="https://en.wikipedia.org/wiki/Design_by_contract" target="_blank">dizajn prema ugovoru</a>, <a href="https://en.wikipedia.org/wiki/Abstract_type" target="_blank">apstraktne klase</a>, <a href="https://en.wikipedia.org/wiki/Multiple_inheritance" target="_blank">višestruko nasleđivanje</a>, <a href="https://en.wikipedia.org/wiki/Anonymous_function" target="_blank">anonimne funkcije</a>,<br> <a href="https://en.wikipedia.org/wiki/Operator_overloading" target="_blank">preopterećenje operatora</a>, sistem <a href="https://en.wikipedia.org/wiki/Covariance_and_contravariance_(computer_science)" target="_blank"> kontravariantnog</a> tipa.</p>
+
+                    <p>Originalnu Berkeleievu implementaciju (poslednja stabilna verzija 1.1 objavljena je 1995. godine, više nije održavana) usvojila
+                        je <a href="https://en.wikipedia.org/wiki/Free_Software_Foundation" target="_blank" style="text-decoration: none;"><i>Fondacija za slobodni softver</i></a> pa je tako<br> postala GNU Sather. Poslednja stabilna verzija GNU-a (1.2.3) objavljena je u julu 2007.
+                        godine i softver se trenutno ne održava. Bilo je još nekoliko varijanti: Sather-K sa<br> <a href="https://en.wikipedia.org/wiki/Karlsruhe_Institute_of_Technology" target="_blank" style="text-decoration: none;"><i>Univerziteta u Karlsruheu</i></a>; Sather-V sa <a href="https://en.wikipedia.org/wiki/University_of_Waikato" target="_blank" style="text-decoration: none;"><i>Univerziteta Vaikato</i></a> (implementacija Sather verzije 1.3); Luka Naulls port ICSI Sather 1.1 u <a href="https://en.wikipedia.org/wiki/RISC_OS" target="_blank" style="text-decoration: none;"><b>RISC OS</b></a>; i pSather, paralelna<br> verzija ICSI Sather-a koja
+                        se bavi <a href="https://en.wikipedia.org/wiki/Non-uniform_memory_access" target="_blank" style="text-decoration: none;">neprokomernim memorijskim</a> višeprocesorskim arhitekturama, ali programeru predstavlja model zajedničke memorije.</p>
+
+                    <p>Bivši <strong>Sather prevodilac</strong> (sada GNU Sather) implementiran je kao kompajler u C, tj. Prevodilac ne emituje <a href="https://en.wikipedia.org/wiki/Object_file" target="_blank" style="text-decoration: none;">objekt</a> ili <a href="https://en.wikipedia.org/wiki/Machine_code" target="_blank" style="text-decoration: none;">mašinski</a> kod,
+                        već uzima Sather <a href="https://en.wikipedia.org/wiki/Source_code" target="_blank" style="text-decoration: none;">izvorni</a> kod i generira<br> C izvorni kod kao <a href="https://en.wikipedia.org/wiki/Intermediate_representation" target="_blank" style="text-decoration: none;">srednji jezik</a>. Optimizacija je prepuštena C prevodiocu.</p>
+
+                    <p>Kompajler GNU Sather, napisan u samoj Sather, je <a href="https://en.wikipedia.org/wiki/Multi-licensing" target="_blank" style="text-decoration: none;">dvostruko licenciran</a> pod <strong><a href="https://en.wikipedia.org/wiki/GNU_General_Public_License" target="_blank" style="text-decoration: none;">GNU</a> <a href="https://en.wikipedia.org/wiki/GNU_General_Public_License" target="_blank" style="text-decoration: none;">GPL</a> & <a href="https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License" target="_blank" style="text-decoration: none;">LGPL</a></strong>.</p>
+                </div>
+
+                <div class="bio-box">
+                    <h2>Steve Omohundro</h2>
+                    <img src="steve.jpg" alt="Steve Omohundro" height="300" width="250">
+                    <p><b>Datum rođenja:</b> 1995<br>
+                        <b>Obrazovanje:</b> Stanford univerzitet u Kaliforniji<br>
+                        <b>Naučna karijera:</b> Fizika veštačke inteligencije<br>
+                        <b>Institucije:</b> Univerzitet Ilinois<br>
+                        <b>Web sajt:</b> <a href="https://steveomohundro.com/" style="text-decoration: none;">Steve Omohundro</a></p>
+                </div>
+            </main>
+            <div>
+
+            </div>
+            <br><br>
+            <h2 style="margin-left: 20em;">Primer koda</h2>
+            <hr WIDTH=70% align="left">
+
+            <!--Selekcioni deo-->
+            <section>
+                <b>1 <font color="green">class</font> <font color="blue">HELLO_WORLD</font> is<br>
+                    2 main is <br>
+                    3 #<font color="blue">OUT</font> + <font color="red">"Hello World\n"</font>;<br>
+                    4 <font color="green">end</font>;<br>
+                    5 <font color="green">end</font>;</b>
+            <p>Nekoliko napomena:<br>
+                <ul>
+                <li>Nazivi klase su ALL CAPS; ovo nije samo konvencija, već je primenjuje prevodilac.</li>
+                <li>Metoda koja se zove main je ulazna tačka za izvršenje. Može pripadati bilo kojoj klasi, ali ako se to razlikuje od MAIN-a, mora
+                se navesti kao opcija kompajlera.</li>
+                <li>"#" je simbol konstruktora, poziva način kreiranja odgovarajuće klase; ovde se koristi za instanciranje
+                klase OUT, što je u stvari stdout.</li>
+                <li> Ovde je + operator preopterećen da bi mogao da doda dodavanje toka.
+                <li>Operatori poput + su <a href="https://en.wikipedia.org/wiki/Syntactic_sugar" target="_blank" style="text-decoration: none;">sintaktički šećer</a> za konvencionalno imenovane pozive metoda: a + b označava a.plus (b). Uobičajene aritmetičke konvencije
+                prioriteta<br> koriste se za rešavanje redosleda poziva u složenim formulama.
+                <li>Programski izgled omogućava prethodno i posle uslova (nisu prikazani ovde), prikazujući Sather-ovu Ajfelovu lozu.</li></p>
+                </ul>
+            </section>
+            <!--Kraj selekcionog dela-->
+
+    </main>
+    <!--Kraj glavnog dela-->
+
+
+    <!--Footer koda-->
+    <footer>
+        <br>
+        <small style="margin-bottom: 2em; margin-top: 1em;"> &ensp; &copy; Maj 2020. Sather - programski jezik</small>
+        <br>
+        <br>
+    </footer>
+    <!--Kraj footera-->
+
+        </div>
+    </body>
+</html>
